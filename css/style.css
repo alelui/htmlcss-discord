@@ -53,6 +53,10 @@ a:hover{
     text-decoration: none;
 }
 
+.text-center{
+    text-align: center;
+}
+
 
 
 
@@ -167,21 +171,14 @@ footer{
 
 /* *** DEBUG MAIN*** */
 
-.debug main{
-    height: 2000px;
-    /* background-color: aqua */
-}
-
 .debug main .container{
     background-color: white;
 }
 
 
 .debug main .container .main-section{
-    width: 90%;
-    margin: auto;
-    background-color: white;
-    padding: 80px 50px;
+    width: 100%;
+    padding: 100px 90px;
 }
 
 .debug main .container .main-section img{
@@ -200,6 +197,22 @@ footer{
 .debug main .container .text-description p{
     font-size: 17px;
     line-height: 25px;
+}
+
+.bk-gr{
+    background-color: lightgray;
+}
+
+.debug main .container .bottom.text-description{
+    width: 100%;
+    text-align: center;
+}
+.debug main .container .bottom.text-description p{
+    width: 80%;
+    margin: auto;
+}
+.debug main .container .main-section img:last-child{
+    height: 550px;
 }
 
 
