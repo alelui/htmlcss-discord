@@ -53,9 +53,11 @@ a:hover{
     text-decoration: none;
 }
 
-.text-center{
-    text-align: center;
+.bk-gr{
+    background-color: lightgray;
 }
+
+
 
 
 
@@ -119,8 +121,8 @@ footer{
 }
 
 .debug header .container #logo img{
-    vertical-align: middle;
     height: 36px;
+    vertical-align: middle;
 }
 
 
@@ -199,20 +201,33 @@ footer{
     line-height: 25px;
 }
 
-.bk-gr{
-    background-color: lightgray;
-}
 
-.debug main .container .bottom.text-description{
-    width: 100%;
+.debug main .container .bottom{
     text-align: center;
 }
-.debug main .container .bottom.text-description p{
+.debug main .container .bottom .text-description{
+    width: 100%;
+    
+}
+.debug main .container .bottom .text-description p{
     width: 80%;
     margin: auto;
 }
-.debug main .container .main-section img:last-child{
+.debug main .container .bottom img{
     height: 550px;
+}
+
+.debug main .container .bottom h3{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.debug main .container .bottom a{
+    background-color: rgb(85, 162, 245);
+    color: white;
+}
+.debug main .container .bottom i{
+    padding-right: 10px;
 }
 
 
