@@ -181,7 +181,7 @@ footer{
     width: 90%;
     margin: auto;
     background-color: white;
-    padding: 40px 50px;
+    padding: 80px 50px;
 }
 
 .debug main .container .main-section img{
@@ -195,7 +195,7 @@ footer{
 .debug main .container .text-description h2{
     font-size: 40px;
     line-height: 45px;
-    margin: 35px 0;
+    margin: 25px 0;
 }
 .debug main .container .text-description p{
     font-size: 17px;
