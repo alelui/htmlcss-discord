@@ -232,7 +232,7 @@ footer{
 }
 
 #stars{
-    height: 42px;
+    height: 45px;
     position: absolute;
     bottom: 15%;
     left: 50%;
@@ -246,4 +246,17 @@ footer{
 
 .debug footer{
     background-color: black;
+}
+
+.debug footer .container{
+    background-color: rgb(167, 111, 7)
+}
+
+.debug footer #up{
+    height: 80%;
+    background-color: orangered;
+}
+.debug footer #down{
+    height: 20%;
+    background-color: green;
 }
