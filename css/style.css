@@ -11,6 +11,12 @@
     display: table;
     clear: both;
 }
+.right{
+    float:right;
+}
+.left{
+    float:left;
+}
 
 body{
     font-family: Arial, Helvetica, sans-serif
@@ -20,7 +26,6 @@ body{
     width: 80%;
     margin: auto;
     height: 100%;
-   
 }
 
 ul li{
@@ -40,6 +45,7 @@ a:hover{
     background-color: white;
     color: black;
     padding: 10px 30px;
+    margin: 0px 15px;
     border-radius: 25px;
     font-size: 15px;
 }
@@ -61,7 +67,7 @@ header{
 /* *** JUMBOTRON *** */
 
 #jumbotron{
-    height: 600px;
+    height: 400px;
 }
 
 /* *** MAIN *** */
@@ -71,8 +77,6 @@ header{
 footer{
     height: 500px;
 }
-
-
 
 
 
@@ -112,9 +116,8 @@ footer{
 
 .debug header .container #logo img{
     vertical-align: middle;
+    height: 36px;
 }
-
-
 
 
 
@@ -135,7 +138,7 @@ footer{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate( -50%, -100%);
+    transform: translate( -50%, -60%);
     color: white;
     width: 600px;
 }
@@ -166,8 +169,42 @@ footer{
 
 .debug main{
     height: 2000px;
-    background-color: aqua
+    /* background-color: aqua */
 }
+
+.debug main .container{
+    background-color: white;
+}
+
+
+.debug main .container .main-section{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    padding: 40px 50px;
+}
+
+.debug main .container .main-section img{
+    height: 360px;
+}
+
+.debug main .container .text-description{
+    width: 300px;
+}
+
+.debug main .container .text-description h2{
+    font-size: 40px;
+    line-height: 45px;
+    margin: 35px 0;
+}
+.debug main .container .text-description p{
+    font-size: 17px;
+    line-height: 25px;
+}
+
+
+
+
 /* *** DEBUG FOOTER*** */
 
 .debug footer{
