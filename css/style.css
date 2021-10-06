@@ -204,6 +204,7 @@ footer{
 
 .debug main .container .bottom{
     text-align: center;
+    position: relative;
 }
 .debug main .container .bottom .text-description{
     width: 100%;
@@ -213,7 +214,7 @@ footer{
     width: 80%;
     margin: auto;
 }
-.debug main .container .bottom img{
+.debug main .container .bottom #img-bot{
     height: 550px;
 }
 
@@ -223,11 +224,19 @@ footer{
 }
 
 .debug main .container .bottom a{
-    background-color: rgb(85, 162, 245);
+    background-color: #648ae8;
     color: white;
 }
 .debug main .container .bottom i{
     padding-right: 10px;
+}
+
+#stars{
+    height: 42px;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
