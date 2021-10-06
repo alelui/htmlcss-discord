@@ -12,12 +12,164 @@
     clear: both;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+   
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.btn:hover{
+    text-decoration: none;
+}
+
+
+
 
 /* *** HEADER *** */
+
+header{
+    height: 100px;
+    font-size: 15px;
+}
+
+
+/* *** JUMBOTRON *** */
+
+#jumbotron{
+    height: 600px;
+}
 
 /* *** MAIN *** */
 
 /* *** FOOTER *** */
 
-/* *** DEBUG *** */
+footer{
+    height: 500px;
+}
 
+
+
+
+
+
+
+/* *** DEBUG *** */
+/* *** DEBUG HEADER *** */
+
+.debug header{
+    background-color: #255ee9;
+    line-height: 100px;
+}
+
+.debug header .container{
+    text-align: center;
+}
+
+.debug header .container div,
+.debug header .container nav{
+    height: 100px;
+    float: left;   
+}
+.debug header .container div{
+    width: 20%;
+}
+.debug header .container nav{
+    width: 60%;
+}
+
+.debug header .container nav li{
+    display: inline-block;
+}
+
+.debug header .container nav a{
+    padding: 0 15px;   
+}
+
+.debug header .container #logo img{
+    vertical-align: middle;
+}
+
+
+
+
+
+/* *** DEBUG JUMBOTRON*** */
+
+.debug #jumbotron{
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-position:center;
+}
+
+.debug #jumbotron .container{
+    text-align: center;
+    position: relative;
+}
+
+.debug #jumbotron .container #title-descriptions{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -100%);
+    color: white;
+    width: 600px;
+}
+
+.debug #title-descriptions h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.debug #title-descriptions p{
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.debug #title-descriptions a:last-child{
+    background-color: black;
+    color: white;
+}
+
+.debug #title-descriptions i{
+    padding-right: 10px;
+}
+
+
+
+
+/* *** DEBUG MAIN*** */
+
+.debug main{
+    height: 2000px;
+    background-color: aqua
+}
+/* *** DEBUG FOOTER*** */
+
+.debug footer{
+    background-color: black;
+}
